@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC37CEB223D6DF3A002F52B2 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37CEB123D6DF3A002F52B2 /* RatingControl.swift */; };
 		ECFBE52F23CF2A3700E0646D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE52E23CF2A3700E0646D /* AppDelegate.swift */; };
 		ECFBE53123CF2A3700E0646D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE53023CF2A3700E0646D /* SceneDelegate.swift */; };
 		ECFBE53323CF2A3700E0646D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE53223CF2A3700E0646D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC37CEB123D6DF3A002F52B2 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		ECFBE52B23CF2A3700E0646D /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFBE52E23CF2A3700E0646D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFBE53023CF2A3700E0646D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				ECFBE52E23CF2A3700E0646D /* AppDelegate.swift */,
 				ECFBE53023CF2A3700E0646D /* SceneDelegate.swift */,
 				ECFBE53223CF2A3700E0646D /* ViewController.swift */,
+				EC37CEB123D6DF3A002F52B2 /* RatingControl.swift */,
 				ECFBE53423CF2A3700E0646D /* Main.storyboard */,
 				ECFBE53723CF2A3800E0646D /* Assets.xcassets */,
 				ECFBE53923CF2A3800E0646D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC37CEB223D6DF3A002F52B2 /* RatingControl.swift in Sources */,
 				ECFBE53323CF2A3700E0646D /* ViewController.swift in Sources */,
 				ECFBE52F23CF2A3700E0646D /* AppDelegate.swift in Sources */,
 				ECFBE53123CF2A3700E0646D /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB2BXUQ92T;
 				INFOPLIST_FILE = FirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB2BXUQ92T;
 				INFOPLIST_FILE = FirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
