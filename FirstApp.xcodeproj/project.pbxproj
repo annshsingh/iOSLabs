@@ -10,9 +10,11 @@
 		EC37CEB223D6DF3A002F52B2 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37CEB123D6DF3A002F52B2 /* RatingControl.swift */; };
 		EC37CEB423D85F16002F52B2 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37CEB323D85F15002F52B2 /* Meal.swift */; };
 		EC37CEBE23D865E9002F52B2 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37CEBD23D865E9002F52B2 /* FirstAppTests.swift */; };
+		EC37CEC623D98710002F52B2 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37CEC523D98710002F52B2 /* MealTableViewCell.swift */; };
+		EC37CEC823D9971E002F52B2 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37CEC723D9971E002F52B2 /* MealTableViewController.swift */; };
 		ECFBE52F23CF2A3700E0646D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE52E23CF2A3700E0646D /* AppDelegate.swift */; };
 		ECFBE53123CF2A3700E0646D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE53023CF2A3700E0646D /* SceneDelegate.swift */; };
-		ECFBE53323CF2A3700E0646D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE53223CF2A3700E0646D /* ViewController.swift */; };
+		ECFBE53323CF2A3700E0646D /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBE53223CF2A3700E0646D /* MealViewController.swift */; };
 		ECFBE53623CF2A3700E0646D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFBE53423CF2A3700E0646D /* Main.storyboard */; };
 		ECFBE53823CF2A3800E0646D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFBE53723CF2A3800E0646D /* Assets.xcassets */; };
 		ECFBE53B23CF2A3800E0646D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFBE53923CF2A3800E0646D /* LaunchScreen.storyboard */; };
@@ -34,10 +36,12 @@
 		EC37CEBB23D865E9002F52B2 /* FirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC37CEBD23D865E9002F52B2 /* FirstAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppTests.swift; sourceTree = "<group>"; };
 		EC37CEBF23D865E9002F52B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC37CEC523D98710002F52B2 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		EC37CEC723D9971E002F52B2 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		ECFBE52B23CF2A3700E0646D /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFBE52E23CF2A3700E0646D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFBE53023CF2A3700E0646D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECFBE53223CF2A3700E0646D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECFBE53223CF2A3700E0646D /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		ECFBE53523CF2A3700E0646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECFBE53723CF2A3800E0646D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFBE53A23CF2A3800E0646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,8 +98,10 @@
 			children = (
 				ECFBE52E23CF2A3700E0646D /* AppDelegate.swift */,
 				ECFBE53023CF2A3700E0646D /* SceneDelegate.swift */,
-				ECFBE53223CF2A3700E0646D /* ViewController.swift */,
+				ECFBE53223CF2A3700E0646D /* MealViewController.swift */,
 				EC37CEB123D6DF3A002F52B2 /* RatingControl.swift */,
+				EC37CEC523D98710002F52B2 /* MealTableViewCell.swift */,
+				EC37CEC723D9971E002F52B2 /* MealTableViewController.swift */,
 				EC37CEB323D85F15002F52B2 /* Meal.swift */,
 				ECFBE53423CF2A3700E0646D /* Main.storyboard */,
 				ECFBE53723CF2A3800E0646D /* Assets.xcassets */,
@@ -216,7 +222,9 @@
 			files = (
 				EC37CEB423D85F16002F52B2 /* Meal.swift in Sources */,
 				EC37CEB223D6DF3A002F52B2 /* RatingControl.swift in Sources */,
-				ECFBE53323CF2A3700E0646D /* ViewController.swift in Sources */,
+				EC37CEC823D9971E002F52B2 /* MealTableViewController.swift in Sources */,
+				EC37CEC623D98710002F52B2 /* MealTableViewCell.swift in Sources */,
+				ECFBE53323CF2A3700E0646D /* MealViewController.swift in Sources */,
 				ECFBE52F23CF2A3700E0646D /* AppDelegate.swift in Sources */,
 				ECFBE53123CF2A3700E0646D /* SceneDelegate.swift in Sources */,
 			);
