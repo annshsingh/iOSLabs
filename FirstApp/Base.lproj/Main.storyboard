@@ -20,12 +20,12 @@
                                 <rect key="frame" x="8" y="76" width="359" height="441"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dqZ-6D-iuQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="359" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="56"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="AHh-PM-nta">
-                                        <rect key="frame" x="20" y="68" width="319" height="319"/>
+                                        <rect key="frame" x="20" y="64" width="319" height="319"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="AHh-PM-nta" secondAttribute="height" multiplier="1:1" id="TZc-Ss-naM"/>
@@ -35,7 +35,7 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="X61-dW-mot" customClass="RatingControl" customModule="FirstApp" customModuleProvider="target">
-                                        <rect key="frame" x="48.5" y="395" width="262" height="46"/>
+                                        <rect key="frame" x="48.5" y="391" width="262" height="50"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="size" keyPath="starSize">
                                                 <size key="value" width="46" height="46"/>
@@ -74,7 +74,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="zPy-yp-5aP">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="gnw-I8-eo4"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="gnw-I8-eo4">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="grM-BC-wLq"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="VeQ-PK-ra3">
                             <connections>
                                 <segue destination="LOZ-lX-N0c" kind="unwind" unwindAction="unwindToMealListWithSender:" id="bTO-KY-iUE"/>
